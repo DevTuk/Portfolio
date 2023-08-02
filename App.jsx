@@ -1,5 +1,6 @@
 import Nav from './Nav/Nav'
 import About from './About/About'
+import Skills from './Skills/Skills'
 import './App.css'
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
 		<>
 			<Nav />
 			<About />
+			<Skills />
 		</>
 	)
 }
