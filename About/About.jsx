@@ -2,15 +2,14 @@ import React from 'react'
 
 const About = () => {
 	return (
-		<div className='hero min-h-screen bg-base-200'>
-			<div className='p-50 text-start'>
-				<h1 className='text-5xl text-start font-bold animate-fade-up'>
-					Hola, soy Diego!
+		<div className='hero p-2 my-2 mt-40'>
+			<div className='flex flex-col items-center justify-center relative animate-fade-up'>
+				<p className='text-xl md:text-2xl font-semibold'>Hola, soy</p>
+				<h1 className='text-6xl md:text-9xl  font-black  flex flex-col items-center animate-text bg-gradient-to-r from-emerald-500 from-10% via-sky-500 via-30% to-purple-500 to-90%  bg-clip-text text-transparent '>
+					Diego <span>Barros Sofio</span>
 				</h1>
-				<p className='py-6 text-start display-flex flex-wrap w-1/2'>
-					Soy frontend developer en proceso de aprendizaje constante. Espero te guste
-					mi portfolio y si queres ponerte en contacto conmigo podes hacerlo a traves
-					de mis redes sociales.
+				<p className='py-3 text-center text-white text-xl '>
+					Frontend developer en proceso de aprendizaje constante.
 				</p>
 			</div>
 		</div>
