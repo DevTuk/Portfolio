@@ -8,7 +8,7 @@ const About = () => {
 				<h1 className='text-6xl md:text-9xl  font-black  flex flex-col items-center animate-text bg-gradient-to-r from-emerald-500 from-10% via-sky-500 via-30% to-purple-500 to-90%  bg-clip-text text-transparent '>
 					Diego <span className='text-center'>Barros Sofio</span>
 				</h1>
-				<p className='py-3 text-center text-white text-3xl '>
+				<p className='py-3 text-center text-white text-xl lg:text-3xl '>
 					Frontend developer en proceso de aprendizaje constante.
 				</p>
 			</div>

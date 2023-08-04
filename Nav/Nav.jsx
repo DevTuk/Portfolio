@@ -5,7 +5,7 @@ const Nav = () => {
 		<>
 			<div className='navbar h-20 p-5 text-neutral-content rounded-box lg:displey-flex flex-column'>
 				<div className='flex-1 px-2 mx-2'>
-					<span className='text-3xl font-bold  text-cyan-500'>dewebs</span>
+					<span className='text-3xl font-bold  text-white'>dewebs</span>
 				</div>
 				<div className='flex-none hidden px-2 mx-2 lg:flex'>
 					<div className='flex items-stretch text-3xl '>
