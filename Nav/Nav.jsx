@@ -9,11 +9,21 @@ const Nav = () => {
 				</div>
 				<div className='flex-none hidden px-2 mx-2 lg:flex'>
 					<div className='flex items-stretch text-3xl '>
-						<div className='devicon-github-original mx-2' />
-						<div className='devicon-linkedin-plain mx-2' />
-						<div className='btn btn-ghost btn-sm rounded-btn'>Sobre mí</div>
-						<div className='btn btn-ghost btn-sm rounded-btn'>Proyectos</div>
-						<div className='btn btn-ghost btn-sm rounded-btn'>Contacto</div>
+						<a
+							className='link decoration-transparent devicon-github-original mx-2'
+							href='https://github.com/DevTuk'
+							target='_blank'
+							rel='noreferrer'
+						></a>
+						<a
+							className='link decoration-transparent devicon-linkedin-plain mx-2 '
+							href='https://www.linkedin.com/in/diego-barros-sofio/'
+							target='_blank'
+							rel='noreferrer'
+						></a>
+						<a className='btn btn-ghost btn-sm rounded-btn'>Sobre mí</a>
+						<a className='btn btn-ghost btn-sm rounded-btn'>Proyectos</a>
+						<a className='btn btn-ghost btn-sm rounded-btn'>Contacto</a>
 					</div>
 				</div>
 				<div className='navbar-end lg:hidden '>
