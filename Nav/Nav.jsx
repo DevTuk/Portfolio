@@ -21,8 +21,19 @@ const Nav = () => {
 							target='_blank'
 							rel='noreferrer'
 						></a>
-						<a className='btn btn-ghost btn-sm rounded-btn'>Sobre mí</a>
-						<a className='btn btn-ghost btn-sm rounded-btn'>Proyectos</a>
+						<a
+							className='btn btn-ghost btn-sm rounded-btn'
+							href='#sobreMi'
+						>
+							Sobre mí
+						</a>
+						<a
+							className='btn btn-ghost btn-sm rounded-btn'
+							//href a componente <Proyectos/Z
+							href='#proyectos'
+						>
+							Proyectos
+						</a>
 						<a className='btn btn-ghost btn-sm rounded-btn'>Contacto</a>
 					</div>
 				</div>

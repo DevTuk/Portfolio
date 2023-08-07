@@ -3,7 +3,8 @@ import React from 'react'
 const Skills = () => {
 	return (
 		<>
-			<div className='animate-fade-up animate-delay-[2000ms]'>
+			{/* animate-fade-up animate-delay-[2000ms] */}
+			<div className='container mx-auto'>
 				<div className='text-center font-bold text-4xl lg:text-4xl pt-10 lg:pt-40 mb-20 text-emerald-500 '>
 					Tecnologías
 				</div>
