@@ -63,15 +63,36 @@ const Nav = () => {
 							className='menu menu-sm dropdown-content mt-3 z-[1] p-2  shadow bg-gray-700 rounded-box w-52 text-center'
 						>
 							<li className='flex flex-row justify-center'>
-								<div className='devicon-github-original mx-2 text-3xl ' />
-								<div className='devicon-linkedin-plain mx-2 text-3xl' />
+								<a
+									className='link decoration-transparent devicon-github-original mx-2 text-3xl'
+									href='https://github.com/DevTuk'
+									target='_blank'
+									rel='noreferrer'
+								></a>
+								<a
+									className='link decoration-transparent devicon-linkedin-plain mx-2 text-3xl'
+									href='https://www.linkedin.com/in/diego-barros-sofio/'
+									target='_blank'
+									rel='noreferrer'
+								></a>
 							</li>
 							<li></li>
 							<li>
-								<div className='btn btn-ghost btn-sm rounded-btn'>Sobre mí</div>
+								<a
+									className='btn btn-ghost btn-sm rounded-btn'
+									href='#sobreMi'
+								>
+									Sobre mí
+								</a>
 							</li>
 							<li>
-								<div className='btn btn-ghost btn-sm rounded-btn'>Proyectos</div>
+								<a
+									className='btn btn-ghost btn-sm rounded-btn'
+									//href a componente <Proyectos/Z
+									href='#proyectos'
+								>
+									Proyectos
+								</a>
 							</li>
 							<li>
 								<div className='btn btn-ghost btn-sm rounded-btn'>Contacto</div>

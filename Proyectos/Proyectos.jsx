@@ -15,7 +15,8 @@ const Proyectos = () => {
 						<figure>
 							<img
 								//lorempicksun
-								src='../src/imagenes/Artemi.png'
+								src='
+								/assets/artemi.jpg'
 								alt='Album'
 								className='lg:w-350 lg:h-96'
 							/>
@@ -38,7 +39,7 @@ const Proyectos = () => {
 					<div className='card lg:card-side bg-black shadow-xl'>
 						<figure>
 							<img
-								src='../src/imagenes/Birritas.png'
+								src='/assets/birritas.jpg'
 								alt='Album'
 								className='lg:w-350 lg:h-96'
 							/>
@@ -62,7 +63,7 @@ const Proyectos = () => {
 					<div className='card lg:card-side bg-black shadow-xl'>
 						<figure>
 							<img
-								src='../src/imagenes/Portfolio.png'
+								src='/assets/portfolio.jpg'
 								alt='Album'
 								className='lg:w-350 lg:h-96'
 							/>
